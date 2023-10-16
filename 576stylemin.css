@@ -1,0 +1,74 @@
+@media (min-width: 576px) {
+  .ml-mr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .login {
+    width: 88px;
+  }
+  .login input {
+    font-size: 15px;
+    width: 78px;
+  }
+  .register input {
+    font-size: 15px;
+    width: 100px;
+  }
+  .register {
+    width: 40px;
+  }
+  .phone {
+    font-size: 15px;
+  }
+  .phone i {
+    font-size: 11px;
+  }
+  .logo {
+    width: 40%;
+    font-size: 35px;
+  }
+  .sub-logo {
+    top: 30px;
+    font-size: 17px;
+    width: 17px;
+  }
+  .line {
+    width: 65px;
+    top: 18px;
+  }
+
+  .menu {
+    display: none;
+  }
+  .sub-header {
+    margin: 25px 0;
+  }
+  .sub-header .menubar {
+    width: 59%;
+    font-size: 25px;
+  }
+  .sub-header .menubar i {
+    height: 23px;
+    width: 30px;
+  }
+  .banner-heading {
+    width: 90%;
+    height: 250px;
+  }
+  .banner-heading h3 {
+    font-size: 46px;
+  }
+  .row-welcome-grid {
+    margin: 40px 20px;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col3 h1 {
+    text-align: start;
+  }
+  .col4 {
+    width: 44%;
+    height: 555px;
+  }
+}

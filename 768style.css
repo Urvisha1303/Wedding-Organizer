@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+  .ml-mr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .register {
+    width: 70px;
+  }
+  .logo {
+    width: 30%;
+    font-size: 35px;
+  }
+
+  .sub-logo {
+    top: 30px;
+  }
+  .line {
+    width: 74px;
+    top: 18px;
+  }
+  .menu {
+    display: none;
+  }
+  .sub-header .menubar {
+    width: 65%;
+  }
+  .sub-header .menubar i {
+    display: block;
+  }
+  .banner-heading {
+    width: 73%;
+    height: 220px;
+  }
+
+  .banner-heading h3 {
+    font-size: 44px;
+  }
+  .row-welcome-grid {
+    margin: 40px 30px;
+  }
+  .col3{
+    width: 100%;
+  }
+  .col3 h1{
+    text-align: start;
+  }
+  .col4{
+    width: 44%;
+    height: 485px;
+  }
+}
