@@ -206,7 +206,7 @@
   }
   .row-welcome-grid {
     /* border: 1px solid; */
-    height: 416px;
+    height: auto;
     margin: 40px 90px;
     display: flex;
     justify-content: space-between;
@@ -261,4 +261,188 @@
     color: #17a2b8;
     font-size: 25px;
   }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 10px;
+  }
+  .bg-img1 {
+    background-image: url(./image/bg-img1.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  .bg-img2 {
+    background-image: url(./image/bg-img2.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  .bg-img3 {
+    background-image: url(./image/bg-img3.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  .bg-img4 {
+    background-image: url(./image/bg-img4.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  .bg-img5 {
+    background-image: url(./image/bg-img5.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  .bg-img6 {
+    background-image: url(./image/bg-img6.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+
+  .grid-1 {
+    height: 450px;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .grid-2 {
+    width: 100%;
+  }
+  .service {
+    margin-bottom: 70px;
+  }
+  .margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .service-header h1 {
+    font-size: 40px;
+    color: #6c757d;
+    font-weight: 900;
+  }
+
+  .info-wedding {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .servics-all {
+    width: 23%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo1 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0px 30px 31px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #dc3545;
+  }
+  .logo1 i {
+    color: #fff;
+    font-size: 20px;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+  .content {
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    line-height: 24px;
+  }
+
+  .explore-all-services h4 {
+    width: 229px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .explore-all-services {
+    display: flex;
+    justify-content: center;
+  }
+
+  .organizer{
+    background: #17a2b8;
+    height: 500px;
+    position: relative;
+}
+.org{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    padding-top: 80px;
+    color: #f8f9fa;
+
+}
+.org h3{
+    font-size: 40px;
+    line-height: 73px;
+    
+}
+.org p{
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.detail .venue{
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.venue h4{
+    font-size: 40px;
+    color: #fff;
+}
+.venue p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+}
+.position-img1{
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: auto;
+  margin-left: 0;
+}
+.position-img1 img{
+    height: 500px;
+}
+.position-img2{
+  position: absolute;
+  right: 8%;
+  top: 0;
+  width: auto;
+  margin-right: 0;
+    
+}
+.position-img2 img{
+    height: 500px;
+
+}
 }

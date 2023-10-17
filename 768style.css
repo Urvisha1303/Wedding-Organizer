@@ -48,4 +48,71 @@
     width: 44%;
     height: 485px;
   }
+
+  .row{
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1px;
+    column-gap: 2px;
+
+}
+
+.grid-1{
+    height: 450px;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 12px;
+}
+.grid-2{
+  width: 100%;
+}
+.margin{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.servics-all{
+  width: 46%;
+  }
+
+  /*  */
+  .organizer {
+    background: #17a2b8;
+    height: auto;
+
+  }
+  .org{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .org h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .org p {
+    width: 100%;
+  }
+  .detail {
+    justify-content: space-between;
+}
+  .detail .venue {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .position-img1{
+    position: static;
+    left: 0;
+    width: 41%;
+    margin-left: 7%;
+  }
+  .position-img1 img {
+    width: 100%;
+}
+  .position-img2{
+    position: static;
+    right: 0;
+    width: 41%;
+    margin-right: 7%;
+  }
+  .position-img2 img {
+    width: 100%;
+}
 }
