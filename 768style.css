@@ -38,48 +38,46 @@
   .row-welcome-grid {
     margin: 40px 30px;
   }
-  .col3{
+  .col3 {
     width: 100%;
   }
-  .col3 h1{
+  .col3 h1 {
     text-align: start;
   }
-  .col4{
+  .col4 {
     width: 44%;
     height: 485px;
   }
 
-  .row{
-    grid-template-columns: repeat(3,1fr);
+  .row {
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 1px;
     column-gap: 2px;
+  }
 
-}
-
-.grid-1{
+  .grid-1 {
     height: 450px;
     margin-top: 30px;
     width: 90%;
     margin-left: 12px;
-}
-.grid-2{
-  width: 100%;
-}
-.margin{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.servics-all{
-  width: 46%;
+  }
+  .grid-2 {
+    width: 100%;
+  }
+  .margin {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .servics-all {
+    width: 46%;
   }
 
   /*  */
   .organizer {
     background: #17a2b8;
     height: auto;
-
   }
-  .org{
+  .org {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -92,12 +90,12 @@
   }
   .detail {
     justify-content: space-between;
-}
+  }
   .detail .venue {
     margin-top: 40px;
     margin-bottom: 30px;
   }
-  .position-img1{
+  .position-img1 {
     position: static;
     left: 0;
     width: 41%;
@@ -105,8 +103,8 @@
   }
   .position-img1 img {
     width: 100%;
-}
-  .position-img2{
+  }
+  .position-img2 {
     position: static;
     right: 0;
     width: 41%;
@@ -114,5 +112,46 @@
   }
   .position-img2 img {
     width: 100%;
+  }
+  .margin-1 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .heading-commit {
+    margin: 100px 0 44px 20px;
+  }
+  .row-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team-caption {
+    bottom: 72px;
+  }
+  .clients-header {
+    font-size: 20px;
+  }
+  .row-client .item1 {
+    width: 48%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .button input {
+    width: 65%;
+  }
+  .icon-but {
+    position: absolute;
+    right: 113px;
+  }
+  .wd-30 {
+    width: 35%;
+}
+.wd-40 {
+  width: 45%;
+}
+  .wd-40 h3 {
+    font-size: 25px;
+}
+.insta-img img{
+  width: 50px;
+
 }
 }

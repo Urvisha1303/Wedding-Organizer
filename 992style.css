@@ -118,4 +118,43 @@
     top: 0;
     margin-right: 0;
   }
+  .margin-1 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.team-caption {
+  bottom: 72px;
+}
+.team-caption h4{
+  font-weight: 600;
+  color: #fff;
+  padding: 35px 0 20px 0;
+  font-size: 23px;
+}
+.px-1 h4 {
+  font-size: 22px;
+}
+.clients-header{
+  font-size: 20px;
+}
+.row-grid{
+  grid-template-columns: repeat(5, 1fr);
+}
+.row-client .item1{
+  width: 32%;
+  height: auto;
+}
+.button input {
+  width: 45%;
+
+}
+.wd-40 h3 {
+  font-size: 26px;}
+.icon-but {
+  right: 231px;
+}
+.insta-img img{
+  width: auto;
+
+}
 }

@@ -380,12 +380,12 @@
     justify-content: center;
   }
 
-  .organizer{
+  .organizer {
     background: #17a2b8;
     height: 500px;
     position: relative;
-}
-.org{
+  }
+  .org {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,55 +394,322 @@
     justify-content: center;
     padding-top: 80px;
     color: #f8f9fa;
-
-}
-.org h3{
+  }
+  .org h3 {
     font-size: 40px;
     line-height: 73px;
-    
-}
-.org p{
+  }
+  .org p {
     width: 50%;
     text-align: center;
     font-size: 14px;
     line-height: 25px;
-}
+  }
 
-.detail .venue{
+  .detail .venue {
     text-align: center;
     margin-top: 70px;
     width: 100%;
     margin-bottom: 30px;
-}
-.venue h4{
+  }
+  .venue h4 {
     font-size: 40px;
     color: #fff;
-}
-.venue p{
+  }
+  .venue p {
     font-size: 14px;
     margin-top: 10px;
     color: #fff;
-}
-.position-img1{
-  position: absolute;
-  top: 0;
-  left: 8%;
-  width: auto;
-  margin-left: 0;
-}
-.position-img1 img{
+  }
+  .position-img1 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: auto;
+    margin-left: 0;
+  }
+  .position-img1 img {
     height: 500px;
-}
-.position-img2{
-  position: absolute;
-  right: 8%;
-  top: 0;
-  width: auto;
-  margin-right: 0;
-    
-}
-.position-img2 img{
+  }
+  .position-img2 {
+    position: absolute;
+    right: 8%;
+    top: 0;
+    width: auto;
+    margin-right: 0;
+  }
+  .position-img2 img {
     height: 500px;
+  }
+  /* commit */
 
-}
+  .commit {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .margin-1 {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .heading-commit {
+    text-align: start;
+    font-size: 32px;
+    color: #6c757d;
+    margin: 100px 0 50px 14px;
+  }
+  .row-grid {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    column-gap: 13px;
+    row-gap: 15px;
+  }
+  .px-1 {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+  }
+
+  .team-info img {
+    width: 100%;
+  }
+  .px-1 {
+    position: relative;
+  }
+  .px-1 h4 {
+    text-align: center;
+    color: #333;
+    font-size: 27px;
+    letter-spacing: -1px;
+    padding-top: 15px;
+  }
+  .px-1 p {
+    text-align: center;
+    color: #333;
+    color: #777;
+    padding-top: 11px;
+    font-size: 15px;
+  }
+  .team-caption {
+    position: absolute;
+    bottom: 78px;
+    left: 0;
+    right: 0;
+    background: #222;
+    width: 100%;
+    height: 0px;
+    /* transition: 0.5s ease; */
+    overflow: hidden;
+  }
+  .team-caption h4 {
+    font-weight: 600;
+    color: #fff;
+    padding: 35px 0 20px 0;
+  }
+  .team-caption p {
+    color: #999;
+    letter-spacing: 1px;
+    padding: 0px 0 15px 0;
+  }
+  .team-caption ul {
+    display: flex;
+    list-style: none;
+    color: #888;
+    justify-content: center;
+  }
+  .team-caption li {
+    margin: 10px 3px 30px 3px;
+    font-size: 10px;
+  }
+  .px-1:hover .team-caption {
+    display: block;
+    height: 50%;
+  }
+  .clients-main {
+    background-image: url(./image/bg.jpg);
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .bg-color {
+    background: rgba(51, 51, 51, 0.7);
+    width: 100%;
+    height: auto;
+  }
+  .mg-padding {
+    padding: 25px 25px 40px 25px;
+  }
+  .clients-header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    color: #fff;
+  }
+  .row-client {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .row-client .item1 {
+    width: 32%;
+    height: auto;
+    /* border: 1px solid; */
+  }
+
+  .item1 h5 {
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 15px;
+    color: #fff;
+  }
+
+  .item1 p {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #eee;
+    line-height: 30px;
+  }
+  /* Subscribe */
+  .Subscribe {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .sub-1 {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .sub-1 h1 {
+    color: #6c757d;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .sub-1 p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .button {
+    position: relative;
+  }
+  .button input {
+    width: 45%;
+    height: 64px;
+    padding-left: 31px;
+    margin-top: 31px;
+    font-size: 19px;
+    border: 2px solid;
+  }
+  .icon-but {
+    position: absolute;
+    right: 231px;
+    bottom: 17px;
+    width: 75px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    top: 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    border: 0px solid;
+  }
+
+  /* footer */
+  .footer {
+    height: auto;
+    /* border: 1px solid; */
+  }
+  .footer-bg {
+    background: #222;
+    height: auto;
+  }
+  .wd-30 {
+    width: 25%;
+    height: auto;
+    /* border:1px solid ; */
+  }
+  .wd-40 {
+    width: 36%;
+    height: auto;
+    /* border:1px solid ; */
+    padding: 0px 60px;
+  }
+  .content-gap {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .wd-30 h3 {
+    font-size: 28px;
+    color: #ccc;
+    padding: 20px 0;
+  }
+  .wd-30 p {
+    font-size: 17px;
+    color: #888;
+    padding-bottom: 10px;
+  }
+  .wd-30 p i {
+    margin-right: 7px;
+  }
+  .wd-40 h3 {
+    font-size: 28px;
+    color: #ccc;
+    padding: 20px 0;
+  }
+  .insta-img {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 7px;
+    row-gap: 4px;
+  }
+  .insta-img img{
+    width: auto;
+  
+  }
+  .wd-30 ul {
+    display: flex;
+    padding-top: 18px;
+  }
+
+  .wd-30 ul li {
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: #777;
+    background: #333;
+    margin-right: 8px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 17px;
+    color: #888;
+  }
+  .copyright p a {
+    text-decoration: none;
+    color: #aaa;
+  }
+  .copyright p a:hover {
+    color: #999;
+  }
 }

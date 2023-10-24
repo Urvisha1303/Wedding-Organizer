@@ -139,4 +139,45 @@
   .position-img2 img {
     width: 100%;
 }
+.margin-1 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.heading-commit {
+  margin: 100px 0 44px 20px;
+}
+.row-grid{
+  grid-template-columns: repeat(3, 1fr);
+}
+.team-caption {
+  bottom: 71px;
+}
+.px-1 h4 {
+  font-size: 21px;
+}
+.clients-header{
+  font-size: 20px;
+}
+.row-client .item1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.button input {
+  width: 75%;
+}
+.icon-but {
+  right: 53px;
+}
+.wd-30 {
+  width: 43%;
+}
+.wd-40 {
+  width: 42%;
+  padding: 0px 30px;
+}
+.insta-img img {
+  width: 43px;
+}
+
 }
