@@ -610,20 +610,21 @@
     border: 2px solid;
   }
   .icon-but {
-    position: absolute;
-    right: 231px;
-    bottom: 17px;
-    width: 75px;
-    height: 68px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid;
-    top: 30px;
-    font-size: 20px;
-    background: #333;
-    color: #fff;
-    border: 0px solid;
+      position: absolute;
+      right: 290px;
+      bottom: 13px;
+      width: 75px;
+      height: 67px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      top: 31px;
+      font-size: 20px;
+      background: #333;
+      color: #fff;
+      border: 0px solid;
+  
   }
 
   /* footer */
