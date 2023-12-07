@@ -1081,7 +1081,6 @@ h1 {
 .addressinfo {
   width: 100%;
   height: auto;
-  /* border: 1px solid; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -1117,7 +1116,6 @@ h1 {
 .infoabout {
   width: 100%;
   height: auto;
-  /* border: 1px solid; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -1128,13 +1126,12 @@ h1 {
   width: 48%;
   height: auto;
   margin-bottom: 0;
-  /* border: 1px solid; */
+  
 }
 .donationdetails {
   width: 49%;
   height: auto;
   margin-bottom: 0;
-  /* border: 1px solid; */
 }
 
 .formdetails input[type="text"],
