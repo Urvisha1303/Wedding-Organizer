@@ -175,6 +175,17 @@ flex-direction: column;
 .query-find{
   width: 100%;
 }
+/* Gallery */
+.gallery-img {
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.gallery-img .img-ga {
+  height: 130px;
+}
+.gallery-img .img-ga img {
+  height: 130px;
+}
 /* error page */
 .error_page{
   margin: 0;

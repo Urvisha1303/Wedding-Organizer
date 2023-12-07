@@ -204,6 +204,21 @@
   .query-find {
     width: 100%;
   }
+/* gallery */
+.gallery-img {
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.gallery-img .img-ga {
+  width: 100%;
+  border: 5px solid #eaeaea;
+  height: 200px;
+}
+.gallery-img .img-ga img {
+  width: 100%;
+  height: 200px;
+}
+
   /* error page */
   .error_page {
     margin: 0;

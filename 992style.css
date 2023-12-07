@@ -165,6 +165,10 @@
 
 }
 /* About Page */
+.gallery-img {
+  grid-template-columns: repeat(4, 1fr);
+
+}
 .row-welcome-grid {
   margin: 40px 10px;
 }
@@ -172,7 +176,13 @@
 .row-2{
   width: 32%;
 }
-
+/* Gallery */
+.gallery-img .img-ga {
+  height: 200px;
+}
+.gallery-img .img-ga img {
+  height: 200px;
+}
 
 /* error page */
 .error_page{
