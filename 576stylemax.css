@@ -59,7 +59,7 @@
     font-size: 46px;
   }
   .row-welcome-grid {
-    margin: 40px 10px;
+    margin: 40px 25px 40px 0;
   }
   .col3 {
     width: 100%;
@@ -97,9 +97,8 @@
   .organizer {
     background: #17a2b8;
     height: auto;
-    
   }
-  .org{
+  .org {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -115,12 +114,12 @@
   }
   .detail {
     justify-content: space-between;
-}
+  }
   .detail .venue {
     margin-top: 40px;
     margin-bottom: 30px;
   }
-  .position-img1{
+  .position-img1 {
     position: static;
     left: 0;
     margin-left: 7%;
@@ -129,8 +128,8 @@
   }
   .position-img1 img {
     width: 100%;
-}
-  .position-img2{
+  }
+  .position-img2 {
     position: static;
     right: 0;
     width: 41%;
@@ -139,48 +138,127 @@
   }
   .position-img2 img {
     width: 100%;
+  }
+  .venue p {
+    font-size: 12px;
+  }
+  .margin-1 {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .heading-commit {
+    margin: 100px 0 44px 20px;
+  }
+  .row-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-caption {
+    bottom: 71px;
+  }
+  .px-1 h4 {
+    font-size: 21px;
+  }
+  .clients-header {
+    font-size: 15px;
+  }
+  .row-client .item1 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .button input {
+    width: 70%;
+    height: 55px;
+  }
+  .icon-but {
+    right: 20px;
+  }
+  .wd-30 {
+    width: 80%;
+  }
+  .wd-40 {
+    width: 98%;
+    padding: 0px 0px;
+  }
+  .insta-img img {
+    width: auto;
+  }
+
+  /* About Page */
+  .fact-header {
+    font-size: 25px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .col3 h1 {
+    font-size: 30px;
+  }
+  .content-fact {
+    margin-bottom: 40%;
+  }
+  .row-1 {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .grid-who {
+    flex-direction: column;
+  }
+
+  .col-who {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .col-who h4 {
+    font-size: 20px;
+  }
+  .col-who .image1 img {
+    height: 290px;
+  }
+  .query-find {
+    width: 100%;
+  }
+  .sub-1 h1 {
+    font-size: 25px;
+  }
+  .sub-1 p {
+    font-size: 13px;
+  }
+  /* error page */
+  .error_page {
+    margin: 0;
+  }
+  .error_page h1 {
+    font-size: 5em;
+  }
+  .error_page h3 {
+    font-size: 29px;}
+    
+.error_page p {
+    font-size: 19px;
 }
-.venue p{
-  font-size: 12px;
+
+.error_page h1 span {
+    font-size: 31px;
+  }
+  /* event page */
+.margin-2{
+  margin-left: 0;
+  margin-right: 0;
 }
-.margin-1 {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-.heading-commit {
-  margin: 100px 0 44px 20px;
-}
-.row-grid{
-  grid-template-columns: repeat(2, 1fr);
-}
-.team-caption {
-  bottom: 71px;
-}
-.px-1 h4 {
-  font-size: 21px;
-}
-.clients-header{
-  font-size: 15px;
-}
-.row-client .item1 {
+.event-org {
   width: 100%;
-  height: auto;
-  padding-bottom: 50px;
 }
-.button input {
-  width: 85%;
+
+/* Contact page */
+.formdetails {
+  width: 100%;
+  margin-bottom: 20px;
 }
-.icon-but {
-  right: 20px;
+.donationdetails{
+  width: 100%;
 }
-.wd-30 {
-  width: 80%;
-}
-.wd-40 {
-  width: 98%;
-  padding: 0px 0px;
-}
-.insta-img img {
-  width: auto;
+.address , .email,.phoneinfo{
+  width: 100%;
 }
 }

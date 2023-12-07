@@ -136,6 +136,8 @@
   }
   .button input {
     width: 65%;
+    height: 55px;
+  
   }
   .icon-but {
     position: absolute;
@@ -153,5 +155,54 @@
 .insta-img img{
   width: 50px;
 
+}
+/* About Page */
+.content-fact{
+  margin-bottom: 40px;
+}
+.row-1 {
+  width: 32%;
+  padding-bottom: 40px;
+}
+.grid-who {
+flex-direction: column;
+}
+.col-who{
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+.query-find{
+  width: 100%;
+}
+/* error page */
+.error_page{
+  margin: 0;
+}
+.error_page h1{
+  font-size: 6em;
+}
+.error_page h1 span {
+  font-size: 31px;
+}
+/* event page */
+.margin-2{
+  margin-left: 0;
+  margin-right: 0;
+}
+.event-org {
+  width: 48%;
+}
+
+/* Contact page */
+.formdetails {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.donationdetails{
+  width: 100%;
+}
+.address , .email,.phoneinfo{
+  width: 32%;
 }
 }

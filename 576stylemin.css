@@ -59,7 +59,7 @@
     font-size: 46px;
   }
   .row-welcome-grid {
-    margin: 40px 20px;
+    margin: 40px 25px 40px 0px;
   }
   .col3 {
     width: 100%;
@@ -72,36 +72,34 @@
     height: 555px;
   }
 
-  .row{
-    grid-template-columns: repeat(2,1fr);
+  .row {
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
     column-gap: 20px;
     margin: 20px;
-}
-
-.grid-1{
-    height: auto ;
-    margin-top: 0px;
-}
-.grid-2{
-  width: 100%;
-}
-.margin{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.servics-all{
-  width: 46%;
   }
 
+  .grid-1 {
+    height: auto;
+    margin-top: 0px;
+  }
+  .grid-2 {
+    width: 100%;
+  }
+  .margin {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .servics-all {
+    width: 46%;
+  }
 
   /*  */
   .organizer {
     background: #17a2b8;
     height: auto;
-    
   }
-  .org{
+  .org {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -114,12 +112,12 @@
   }
   .detail {
     justify-content: space-between;
-}
+  }
   .detail .venue {
     margin-top: 40px;
     margin-bottom: 30px;
   }
-  .position-img1{
+  .position-img1 {
     position: static;
     left: 0;
     margin-left: 7%;
@@ -128,8 +126,8 @@
   }
   .position-img1 img {
     width: 100%;
-}
-  .position-img2{
+  }
+  .position-img2 {
     position: static;
     right: 0;
     width: 41%;
@@ -138,46 +136,108 @@
   }
   .position-img2 img {
     width: 100%;
+  }
+  .margin-1 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .heading-commit {
+    margin: 100px 0 44px 20px;
+  }
+  .row-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team-caption {
+    bottom: 71px;
+  }
+  .px-1 h4 {
+    font-size: 21px;
+  }
+  .clients-header {
+    font-size: 20px;
+  }
+  .row-client .item1 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .button input {
+    width: 74%;
+    height: 55px;
+  }
+  .icon-but {
+    right: 53px;
+  }
+  .wd-30 {
+    width: 43%;
+  }
+  .wd-40 {
+    width: 42%;
+    padding: 0px 30px;
+  }
+  .insta-img img {
+    width: 43px;
+  }
+  /* About Page */
+
+  .heading {
+    font-size: 30px;
+  }
+  .col3 h1 {
+    font-size: 30px;
+  }
+  .content-fact {
+    margin-bottom: 40px;
+  }
+  .row-1 {
+    width: 32%;
+    padding-bottom: 40px;
+  }
+  .grid-who {
+    flex-direction: column;
+  }
+
+  .col-who {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .query-find {
+    width: 100%;
+  }
+  /* error page */
+  .error_page {
+    margin: 0;
+  }
+  .error_page h1 {
+    font-size: 5em;
+  }
+  .error_page h3 {
+    font-size: 29px;}
+    
+.error_page p {
+    font-size: 19px;
 }
-.margin-1 {
-  margin-left: 2%;
-  margin-right: 2%;
+.error_page h1 span {
+  font-size: 31px;
 }
-.heading-commit {
-  margin: 100px 0 44px 20px;
+/* event page */
+.margin-2{
+  margin-left: 0;
+  margin-right: 0;
 }
-.row-grid{
-  grid-template-columns: repeat(3, 1fr);
-}
-.team-caption {
-  bottom: 71px;
-}
-.px-1 h4 {
-  font-size: 21px;
-}
-.clients-header{
-  font-size: 20px;
-}
-.row-client .item1 {
+.event-org {
   width: 100%;
-  height: auto;
-  padding-bottom: 50px;
-}
-.button input {
-  width: 75%;
-}
-.icon-but {
-  right: 53px;
-}
-.wd-30 {
-  width: 43%;
-}
-.wd-40 {
-  width: 42%;
-  padding: 0px 30px;
-}
-.insta-img img {
-  width: 43px;
 }
 
+/* Contact page */
+.formdetails {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.donationdetails{
+  width: 100%;
+}
+.address , .email,.phoneinfo{
+  width: 100%;
+}
 }
