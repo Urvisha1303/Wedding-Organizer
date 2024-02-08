@@ -104,8 +104,8 @@
 }
 
 .menu ul li a:hover {
-  /* text-decoration: underline; */
-  background-color: #fff;
+  text-decoration: underline;
+  /* background-color: #fff; */
 }
 .menu ul li a {
   text-decoration: none;
@@ -154,12 +154,17 @@
 }
 
 .page-dropdown ul li a {
+  text-decoration: underline;
   color: #333;
 }
-
-.page-down:hover .page-dropdown {
-  display: block;
+.page-dropdown ul li a:hover{
+  color: #333;
+  text-decoration: underline;
 }
+
+/* .page-down:hover .page-dropdown {
+  display: block;
+} */
 
 /* banner heading */
 
